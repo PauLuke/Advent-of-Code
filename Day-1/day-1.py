@@ -23,5 +23,5 @@ count = 1
 with open('./text.txt') as file:
     for line in file:
         values_sum += part1(line)
-        print(f'{count}. Sum = {values_sum}')
-        count += 1
+
+print(f'Sum = {values_sum}')
